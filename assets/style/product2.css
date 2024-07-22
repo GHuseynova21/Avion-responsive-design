@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+h1,
+h3,
+p,
+li,
+a {
+font-family: "Poppins";
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #22202e;
+}
+.header-top p {
+  color: white;
+  font-size: 14px;
+ 
+}
+/* For Top Header  */
+.header-top {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: #22202e;
+}
+.header-center div h3{
+  color: #22202e  ;
+}
+.top-nav {
+  margin-left: 50%;
+}
+.icon-mobile{
+  display: none;
+}
+.header-center  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.center{
+  align-items: center;
+  display: flex;
+   color: #f9f9f9;
+   font-size: 10px;
+}
+.center i {
+  margin-right: 10px;
+  color: white;
+}
+.menu {
+  display: flex;
+  padding: 10px;
+}
+.menu li  {
+  margin-left: 32px;
+}
+.top-icon i {
+  margin-left: 16px;
+}
+/* For Bottom Header */
+.bottom-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+.bottom-menu {
+  display: flex;
+}
+.bottom-menu li a {
+  margin-left: 16px;
+}
+.header-for-mobile {
+  display: none;
+}
+/* Header Ends */
+/* For Bottom Header */
+.bottom-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 15px;
+  }
+  .bottom-menu {
+    display: flex;
+  }
+  .bottom-menu li {
+    margin-left: 16px;
+  }
+  .header-for-mobile {
+    display: none;
+  }
+  .brand-built p{
+    display: flex;
+    text-align: center;
+    margin-left: 300px;
+  }
+  .a-brand p{
+    padding:20px 30px;
+    font-size: 15px;  
+  }
+  /* Header Ends */
+  .get-in-touch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .get-in-img{
+    margin-bottom: -4px;
+  }
+  .get-in-img img{
+     width: 485px;
+  }
+  .get-touch-info {
+    padding: 20px;
+  }
+  .get-info-title h3 {
+    font-weight: 300;
+    color: #22202e;
+  }
+  .get-info-description p {
+    font-size: 13px;
+    padding: 15px 0px;
+  }
+  .get-info-about p {
+    font-size: 13px;
+  }
+  .get-info-subscribe {
+    padding-top: 210px;
+  }
+  .get-info-subscribe a {
+    color: #22202e;
+    background-color: rgba(231, 221, 221, 0.849);
+    padding: 13px;
+  }
+  .add {
+    display: flex;
+    justify-content: center;
+  }
+  .add-picture {
+    width: 130%;
+    height: 470px;
+  }
+  .add-picture img {
+    width: 100%;
+    height: 100%;
+  }
+  .add-text {
+    padding: 40px;
+  }
+  .personal p{
+      font-weight:400;
+      font-size: 20px;
+      padding:10px;
+  }
+  .avion p{
+      padding:10px;
+      font-size: 11px;
+  }
+  .handmade p{
+    padding:10px;
+    font-size: 11px;
+  }
+  .get-info-subscribe {
+    padding-top: 150px;
+  }
+  .get-info-subscribe a {
+    color: #22202e;
+    background-color: rgba(231, 221, 221, 0.849);
+    padding: 13px;
+  }
+  .brand-name {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #22202e;
+  }
+  .brand-name h3 {
+    font-weight: 400;
+    
+  }
+  .brand-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    color: #22202e;
+    margin-left: 30px;
+  }
+  .brand-cards div {
+    margin-right: 30px;
+    /* background-color: rgba(205, 196, 196, 0.804); */
+    padding: 30px;
+  }
+  .brand-cards div p {
+    font-size: 10px;
+  }
+  .join {
+    background-image: url("../img/wall.jpeg");
+    text-align: center;
+    padding: 15px;
+    color: white;
+  }
+  .join-menu p {
+    font-size: 25px;
+    padding: 10px;
+  }
+  .join-text p {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .join-text-mobile{
+    display: none;
+  }
+  .join-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .join-list ul li {
+    margin-left: 30px;
+  }
+  .join-list i {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 3px;
+    background-color: white;
+    color: black;
+  }
+  .join-club-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .join-club-email input {
+    padding: 10px;
+    border-style: none;
+    background-color: rgba(231, 221, 221, 0.849);
+    width: 400px;
+    color: gray;
+  }
+  .join-club-email button {
+    padding: 10px;
+    background-color: #22202e;
+    color: white;
+    margin-left: -20px;
+  }
+
+
+  footer {
+    background-color: #2a254b;
+    color: white;
+  }
+  
+  .footer-top {
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+  }
+  
+  .footer-nav {
+    display: flex;
+  }
+  
+  .footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-nav div ul li {
+    font-weight: 200;
+  }
+  .footer-nav div {
+    margin-left: 70px;
+  }
+  footer form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    margin-top: -79px;
+  }
+  .for-input input {
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 0;
+    padding: 5px;
+  }
+  
+  .for-input input::placeholder {
+    color: white;
+  }
+  
+  .for-input input:focus {
+    outline: none;
+  }
+  .for-input button {
+    padding: 4px;
+    margin-left: -3px;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+  }
+
+  footer form label {
+    margin-bottom: 5px;
+  }
+  
+  .footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    border-top: 1px solid white; 
+    width: 90%;
+    margin-left: 60px; 
+    padding: 10px;                                                                                                           
+  }
+  .footer-copy{
+    margin-right: 430px;
+  }
+  .footer-icon i{
+    margin-left: 5px;
+  }
+  .footer-mobile{
+    display: none;
+  }
+/* For responsive design */
+@media screen and (max-width: 391px) {
+ .empty{
+   display: none;
+ }
+ .top-nav , .top-icon{
+   display: none;
+ }
+ .icon-mobile{
+   display: flex;
+ }
+ .bottom-header ul li:nth-child(4){
+   display: none;
+ }
+ .bottom-header ul li:nth-child(5){
+  display: none;
+   
+ }
+ .bottom-header ul li:nth-child(6){
+  display: none;
+   
+ }
+ .bottom-header ul li:nth-child(7){
+  display: none;
+   
+ }
+ .bottom-header ul li:nth-child(8){
+  display: none;
+ }
+ .a-brand{
+  padding: 15px;
+ }
+ .a-brand p{
+   margin: 0px;
+   font-size:50px;
+   text-align: start;
+
+ }
+ .get-in-touch {
+   flex-direction: column;
+ }
+ .get-in-touch p{
+   font-size: 27px;
+ }
+ .get-info-title p{
+   font-weight: 500;
+   font-size: 50px;
+   color: #22202e;
+ }
+ .get-info-subscribe {
+   text-align: center;
+ }
+ .get-info-subscribe a{
+   padding: 40px 250px;
+   font-size: 30px;
+   color: #22202e;
+  }
+  .get-in-img {
+     padding-top:100px;
+     width:100%;
+  }
+  .get-in-img img{
+    width:100%;
+  }
+  .add{
+    flex-direction: column;
+  }
+  .add-picture{
+    padding-top:100px;
+    width:100%;
+  }
+  .add-picture {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  .personal p{
+    font-size: 50px;
+  font-weight: 500;
+  color: #22202e;
+  }
+  .avion p { 
+    font-size: 25px;
+    color: #22202e;
+  }
+  .handmade p{
+    font-size: 25px;
+  }
+  .brand {
+    padding: 20px;
+
+  }
+  .brand-cards {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .brand-name {
+    width: 90%;
+    padding: 10px;
+    margin-left: 15px;
+  }
+  .brand-name h3 {
+    font-size: 45px;
+    font-weight: 300;
+  }
+  .brand-cards div {
+    width: 100%;
+    padding: 20px 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .brand-cards div p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .brand-cards div .second,
+  i {
+    font-size: 20px;
+  }
+  .join {
+    margin-top: 70px;
+    width: 100%;
+  }
+  .join-menu p {
+    text-align: left;
+  }
+  .join-text {
+    display: none;
+  }
+  .join-text-mobile{
+    display: block;
+  }
+  .join-text-mobile p{
+    text-align: left;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  .join-list ul{
+    flex-direction: column;
+    align-items: start;
+    padding:10px ;
+    margin-left: -30px;
+  }
+  .join-list ul li{
+    padding: 7px;
+  }
+  .join-club-email input{
+     width: 275px;
+     background-color:white;
+  }
+
+}

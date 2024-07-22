@@ -1,0 +1,582 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+h1,
+h3,
+p,
+li,
+a {
+  font-family: "Poppins";
+}
+/* For Top Header  */
+.header-top {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  color: #22202e;
+}
+.top-nav {
+  margin-left: 55%;
+}
+.logo h3 a{
+  color: #22202e;
+  font-weight: 300;
+}
+.menu {
+  display: flex;
+}
+.menu li a {
+  margin-left: 32px;
+}
+.top-icon i {
+  margin-left: 16px;
+}
+/* For Bottom Header */
+.bottom-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+.bottom-menu {
+  display: flex;
+}
+.bottom-menu li a {
+  margin-left: 16px;
+}
+.header-for-mobile {
+  display: none;
+}
+/* Header Ends */
+/*First sections starts  */
+.furniture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  width: 100%;
+}
+.furniture-desc {
+  width: 50%;
+}
+.furniture-desc {
+  background-color: #2a254b;
+  height: 450px;
+  width: 800px;
+}
+.furniture-name {
+  padding: 30px 30px 15px 30px;
+  color: white;
+}
+.furniture-name p {
+  font-size: 24px;
+}
+.furniture-button {
+  padding: 30px;
+}
+.furniture-button a {
+  padding: 10px;
+  background-color: rgba(249, 249, 249, 0.15);
+  color: white;
+  font-size: 10px;
+}
+.furniture-img {
+  margin-top: 6px;
+}
+.furniture-title {
+  padding: 130px 30px;
+  color: white;
+}
+.furniture-title p {
+  font-size: 14px;
+}
+.furniture-img {
+  width: 50%;
+}
+.furniture-img img {
+  height: 450px;
+  width: 100%;
+}
+.furniture-mobile {
+  display: none;
+}
+.brand-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #22202e;
+}
+.brand-name h3 {
+  font-weight: 400;
+}
+.brand-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: #22202e;
+  margin-left: 30px;
+}
+.brand-cards div {
+  margin-right: 30px;
+}
+.brand-cards div p {
+  font-size: 10px;
+}
+.second {
+  padding: 10px 0px;
+}
+.ceramics-cards {
+  color: #22202e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ceramics-title {
+  padding: 20px;
+  margin-left: 53px;
+}
+.ceramics-title h3 {
+  color: #22202e;
+  font-weight: 400;
+  margin-left: 55px;
+}
+.ceramics-cards div img {
+  height: 250px;
+  width: 200px;
+}
+.ceramics-cards div {
+  margin-left: 20px;
+}
+.ceramics-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ceramics-view a {
+  color: #2a254b;
+  background-color: rgba(68, 33, 33, 0.037);
+  padding: 15px 20px;
+}
+.ceramics-mobile-cards {
+  display: none;
+}
+.products-card {
+  color: #22202e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products-title h3 {
+  font-weight: 400;
+  margin-left: 125px;
+  color: #2a254b;
+}
+.products-card div img {
+  height: 300px;
+  padding: 10px;
+}
+.products-card div p {
+  margin-left: 30px;
+}
+.products-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products-view a {
+  color: #2a254b;
+  background-color: rgba(68, 33, 33, 0.037);
+  padding: 15px 20px;
+}
+.join-club {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-club-benefits h1 {
+  font-weight: 400;
+  font-size: 35px;
+}
+.join-club-singup {
+  padding: 20px 20px;
+  /* margin-left: 25px; */
+}
+.join-club-singup p {
+  font-size: 13px;
+  text-align: center;
+}
+.join-club-mobile {
+  display: none;
+}
+.join-club-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.join-club-email input {
+  padding: 10px;
+  border-style: none;
+  background-color: rgba(231, 221, 221, 0.849);
+  width: 400px;
+  color: gray;
+}
+.join-club-email button {
+  padding: 10px;
+  background-color: #22202e;
+  color: white;
+  margin-left: -20px;
+}
+.get-in-touch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.get-in-img img {
+  width: 400px;
+}
+.get-touch-info {
+  padding: 20px;
+}
+.get-info-title h3 {
+  font-weight: 300;
+  color: #22202e;
+}
+.get-info-description p {
+  font-size: 13px;
+  padding: 15px 0px;
+}
+.get-info-about p {
+  font-size: 13px;
+}
+.get-info-subscribe {
+  padding-top: 150px;
+}
+.get-info-subscribe a {
+  color: #22202e;
+  background-color: rgba(231, 221, 221, 0.849);
+  padding: 13px;
+}
+footer {
+  background-color: #2a254b;
+  color: white;
+}
+
+.footer-top {
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-nav div ul li {
+  font-weight: 200;
+}
+.footer-nav div {
+  margin-left: 70px;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  margin-top: -79px;
+}
+.for-input input {
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 0;
+  padding: 5px;
+}
+
+.for-input input::placeholder {
+  color: white;
+}
+
+.for-input input:focus {
+  outline: none;
+}
+
+footer form label {
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid white;
+  width: 90%;
+  margin-left: 60px;
+  padding: 10px;
+}
+.footer-copy {
+  margin-right: 430px;
+}
+.footer-icon i {
+  margin-left: 5px;
+}
+.footer-mobile {
+  display: none;
+}
+
+/* For responsive design */
+@media screen and (max-width: 391px) {
+  .header-top {
+    display: none;
+  }
+  .bottom-header {
+    display: none;
+  }
+  .header-for-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #22202e;
+  }
+  .icon-for-mobile-header i {
+    margin-left: 10px;
+  }
+  /*  First sections starts */
+  .furniture {
+    width: 100%;
+    padding: 0;
+  }
+  .furniture-img {
+    display: none;
+  }
+  .furniture-desc {
+    display: none;
+  }
+  .furniture-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #2a254b;
+    color: white;
+    width: 390px;
+    height: 502px;
+  }
+  .furn-mob-name {
+    padding: 30px 30px 0px 30px;
+  }
+  .furn-mob-name p {
+    font-size: 25px;
+  }
+  .furn-mob-title {
+    padding: 130px 10px 20px 10px;
+  }
+  .furn-mob-title p {
+    font-weight: 300;
+  }
+  .furn-mob-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .furn-mob-button a {
+    background-color: rgba(249, 249, 249, 0.15);
+    padding: 10px 130px;
+    color: rgba(247, 247, 247, 0.804);
+  }
+  .brand-cards {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .brand-name {
+    width: 90%;
+    padding: 30px;
+  }
+  .brand-name h3 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .brand-cards div {
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .brand-cards div p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .brand-cards div .second,
+  i {
+    font-size: 20px;
+  }
+  .ceramics-title {
+    margin-left: -50px;
+  }
+  .ceramics-cards {
+    display: none;
+  }
+  .ceramics-mobile-cards {
+    display: flex;
+    margin: 7px;
+    color: #22202e;
+  }
+  .ceramics-mobile-cards div img {
+    width: 200px;
+    margin-right: 10px;
+  }
+  .bottom-card div img {
+    padding: 5px;
+    height: 250px;
+    width: 180px;
+  }
+  .top-card div img {
+    padding: 5px;
+    height: 250px;
+    width: 180px;
+  }
+  .ceramics-view {
+    padding: 20px;
+  }
+  .ceramics-view a {
+    color: #22202e;
+    text-align: center;
+    width: 400px;
+  }
+  .products-title h3 {
+    padding: 7px;
+    margin: 0;
+  }
+  .products-sofa {
+    display: none;
+  }
+  .products-card {
+    color: #22202e;
+  }
+  .products-card div {
+    padding: 10px;
+  }
+  .products-card div img {
+    margin: 0;
+    padding: 16px;
+    height: 250px;
+    width: 200px;
+  }
+  .darkchair {
+    margin-left: -10px;
+  }
+  .products-view {
+    padding: 20px;
+  }
+  .products-view a {
+    color: #22202e;
+    text-align: center;
+    width: 400px;
+  }
+  .join-club-benefits div h1 {
+    font-size: 20px;
+    text-align: center;
+    color: #22202e;
+  }
+  .join-club-singup {
+    display: none;
+  }
+  .join-club-mobile {
+    display: flex;
+    width: 350px;
+    padding: 10px;
+  }
+  .join-club-mobile p {
+    font-size: 13px;
+    width: 100%;
+  }
+  .join-club-email input {
+    width: 210px;
+  }
+  .get-in-touch {
+    flex-direction: column;
+  }
+  .get-info-title {
+    width: 70%;
+    font-size: 16px;
+  }
+  .get-info-subscribe {
+    padding-top: 90px;
+  }
+  .get-info-subscribe a {
+    text-align: center;
+    padding: 13px 130px;
+  }
+  .footer-nav {
+    display: none;
+  }
+  .footer-mobile {
+    display: block;
+  }
+  .footer-list div ul li {
+    font-weight: 300;
+  }
+  .footer-list {
+    display: flex;
+  }
+
+  .footer-list div {
+    margin-left: 50px;
+  }
+  .footer-form {
+    display: none;
+  }
+  .footer-copany {
+    margin-left: 50px;
+    padding-top: 10px;
+  }
+  .footer-form {
+    display: block;
+    margin-top: 120px;
+    margin-left: 50px;
+    font-size: 25px;
+  }
+  .for-input {
+    width: 500px;
+  }
+  .for-input input {
+    padding: 10px;
+    font-size: 15px;
+  }
+  .for-input button {
+    padding: 10px;
+  }
+  .footer-menu {
+    display: block;
+    padding: 50px 0px;
+  }
+  .footer-bottom {
+    width: 100%;
+    color: #fff;
+    margin: 0;
+  }
+  .footer-copy p {
+    padding: 15px 0px;
+  }
+  .footer-top {
+    padding: 0;
+  }
+  .footer-copy {
+    margin: 0;
+  }
+  .footer-icon {
+    display: none;
+  }
+}

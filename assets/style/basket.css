@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #22202e;
+  }
+  .avion-logo p a{
+    color: #22202e;
+    font-weight: 300;
+  }
+  .header-icon i {
+    margin-left: 10px;
+  }
+  .header-mobile {
+    display: none;
+  }
+  .header-bottom ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+  }
+  .header-bottom ul li a {
+    margin: 10px;
+    color: #22202e;
+    font-weight: 300;
+  }
+  .header-bottom {
+    border-top: 1px solid gray;
+  }
+  
+  .header-mobile-text {
+    display: none;
+  }
+
+  footer {
+    background-color: #2a254b;
+    color: white;
+  }
+  
+  .footer-top {
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+  }
+  
+  .footer-nav {
+    display: flex;
+  }
+  
+  .footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-nav div ul li {
+    font-weight: 200;
+  }
+  .footer-nav div {
+    margin-left: 70px;
+  }
+  footer form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    margin-top: -79px;
+  }
+  .for-input input {
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 0;
+    padding: 5px;
+  }
+  
+  .for-input input::placeholder {
+    color: white;
+  }
+  
+  .for-input input:focus {
+    outline: none;
+  }
+  .for-input button {
+    padding: 4px;
+    margin-left: -3px;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+  }
+
+
+
+  footer form label {
+    margin-bottom: 5px;
+  }
+  
+  .footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    border-top: 1px solid white; 
+    width: 90%;
+    margin-left: 60px; 
+    padding: 10px;                                                                                                           
+  }
+  .footer-copy{
+    margin-right: 430px;
+  }
+  .footer-icon i{
+    margin-left: 5px;
+  }
+  .footer-mobile{
+    display: none;
+  }
+
+  @media screen and (max-width: 391px) {
+    .header-bottom {
+        display: none;
+      }
+      .header-icon {
+        display: none;
+      }
+      .header-mobile {
+        display: flex;
+      }
+      .header-mobile i {
+        margin-right: 10px;
+      }
+      .none {
+        display: none;
+      }
+      .header-top {
+        width: 100%;
+      }
+      .avion-logo {
+        width: 70%;
+      }
+      .avion-logo p {
+        font-size: 25px;
+        color: #22202e;
+      }
+      .header-top p {
+        margin-right: 300px;
+      }
+      .header-text {
+        display: none;
+      }
+      .header-mobile-text {
+        display: block;
+      }
+
+      .footer-nav{
+        display: none;
+      }
+      .footer-mobile{
+        display: block;
+    }
+    .footer-list  div ul li{
+      font-weight: 300;
+    }
+    .footer-list{
+      display: flex;
+    }
+    
+    .footer-list div{
+      margin-left:50px;
+    }
+    .footer-form{
+      display: none;
+    }
+    .footer-copany{
+      margin-left:50px;
+      padding-top: 10px;
+    }
+    .footer-form{
+      display: block;
+      margin-top:120px;
+      margin-left:50px;
+      font-size: 25px;
+    }
+    .for-input{
+      width: 500px;
+    }
+    .for-input input{
+      padding: 10px;
+      font-size: 15px;
+    }
+    .for-input button{
+      padding:10px;
+    }
+    .footer-menu{
+      display: block;
+      padding:50px 0px;
+    }
+    .footer-bottom{
+    width: 100%;
+      color: #fff;
+      margin: 0;
+    }
+    .footer-copy p{
+      padding:15px 0px;
+    }
+    .footer-top{
+      padding: 0;
+    }
+    .footer-copy{
+      margin: 0;
+    }
+    .footer-icon{
+      display: none;
+    }
+  }

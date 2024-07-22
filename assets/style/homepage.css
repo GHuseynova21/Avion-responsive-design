@@ -1,0 +1,571 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+/* Header starts */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #22202e;
+}
+.avion-logo p a{
+  color: #22202e;
+  font-weight: 300;
+}
+.header-icon i {
+  margin-left: 10px;
+}
+.header-mobile {
+  display: none;
+}
+.header-bottom ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+}
+.header-bottom ul li a {
+  margin: 10px;
+  color: #22202e;
+  font-weight: 300;
+}
+.header-bottom {
+  border-top: 1px solid gray;
+}
+
+.header-mobile-text {
+  display: none;
+}
+
+/* Header ends */
+
+.window-mobile-text {
+  display: none;
+}
+.window {
+  height: 385px;
+}
+.header-text {
+  width: 100%;
+  display: flex;
+  background-image: url("../img/homepagewindow.jpeg");
+  justify-content: space-between;
+  align-items: center;
+  height: 385px;
+  margin-right: 50px;
+}
+.img-desc {
+  background-color: white;
+  width: 450px;
+  height: 250px;
+  padding: 20px;
+}
+.img-desc div {
+  padding: 10px;
+  background-color: rgba(93, 82, 82, 0.15);
+  color: rgba(205, 196, 196, 0.804);
+  margin-top: 80px;
+  width: 100px;
+  font-size: 14px;
+}
+.brand-name {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  color: #22202e;
+}
+.brand-name h3 {
+  font-weight: 400;
+}
+.brand-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  color: #22202e;
+  margin-left: 30px;
+}
+.brand-cards div {
+  margin-right: 30px;
+  background-color: rgba(205, 196, 196, 0.804);
+  padding: 30px;
+}
+.brand-cards div p {
+  font-size: 10px;
+}
+/* Brand section ends */
+/* Ceramics section starts */
+.ceramics-cards {
+  color: #22202e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-right: 20px;
+}
+.ceramics-title {
+  padding: 20px;
+}
+.ceramics-title h3 {
+  color: #22202e;
+  font-weight: 400;
+  margin-left: 60px;
+}
+.ceramics-cards div {
+  margin-left: 25px;
+}
+
+.ceramics-cards div img {
+  height: 250px;
+  width: 200px;
+}
+
+.ceramics-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ceramics-view a {
+  color: #2a254b;
+  background-color: rgba(68, 33, 33, 0.037);
+  padding: 15px 20px;
+}
+.ceramics-mobile-cards {
+  display: none;
+}
+.ceramics-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ceramics-view a {
+  color: #2a254b;
+  background-color: rgba(68, 33, 33, 0.037);
+  padding: 15px 20px;
+}
+.global {
+  display: flex;
+  justify-content: space-between;
+}
+.global-img {
+  width: 70%;
+  margin-left: 20px;
+}
+.global-text {
+  background-color: #2a254b;
+  width: 70%;
+  padding: 50px 0px;
+}
+.global-img img {
+  width: 100%;
+  margin-bottom: -50px;
+}
+
+.global-name p {
+  padding: 10px 0px 10px 20px;
+  color: white;
+  font-size: 20px;
+}
+.global-description p {
+  color: white;
+  padding: 10px 0px 10px 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.global-view {
+  margin-top: 24%;
+  padding: 10px 0px 10px 20px;
+}
+.global-view a {
+  padding: 10px;
+  background-color: rgba(249, 249, 249, 0.15);
+  color: white;
+  font-size: 10px;
+}
+.join {
+  background-image: url("../img/wall.jpeg");
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+.join-menu p {
+  font-size: 25px;
+  padding: 10px;
+}
+.join-text p {
+  font-size: 15px;
+  padding: 10px;
+}
+.join-text-mobile{
+  display: none;
+}
+.join-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join-list ul li {
+  margin-left: 30px;
+}
+.join-list i {
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 3px;
+  background-color: white;
+  color: black;
+}
+.join-club-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.join-club-email input {
+  padding: 10px;
+  border-style: none;
+  background-color: rgba(231, 221, 221, 0.849);
+  width: 400px;
+  color: gray;
+}
+.join-club-email button {
+  padding: 10px;
+  background-color: #22202e;
+  color: white;
+  margin-left: -20px;
+}
+footer {
+  background-color: #2a254b;
+  color: white;
+}
+
+.footer-top {
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-nav div ul li {
+  font-weight: 200;
+}
+.footer-nav div {
+  margin-left: 70px;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  margin-top: -79px;
+}
+.for-input input {
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 0;
+  padding: 5px;
+}
+
+.for-input input::placeholder {
+  color: white;
+}
+
+.for-input input:focus {
+  outline: none;
+}
+.for-input button {
+  padding: 4px;
+  margin-left: -3px;
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+}
+footer form label {
+  margin-bottom: 5px;
+}
+
+.footer-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;   
+  border-top: 1px solid white; 
+  width: 90%;
+  margin-left: 60px; 
+  padding: 10px;                                                                                                           
+}
+.footer-copy{
+  margin-right: 430px;
+}
+.footer-icon i{
+  margin-left: 5px;
+}
+.footer-mobile{
+  display: none;
+}
+
+/* For responsive design */
+@media screen and (max-width: 391px) {
+  .header-bottom {
+    display: none;
+  }
+  .header-icon {
+    display: none;
+  }
+  .header-mobile {
+    display: flex;
+  }
+  .header-mobile i {
+    margin-right: 10px;
+  }
+  .none {
+    display: none;
+  }
+  .header-top {
+    width: 100%;
+  }
+  .avion-logo {
+    width: 70%;
+  }
+  .avion-logo p {
+    font-size: 25px;
+    color: #22202e;
+  }
+  .header-top p {
+    margin-right: 300px;
+  }
+  .header-text {
+    display: none;
+  }
+  .header-mobile-text {
+    display: block;
+  }
+  /* Window section starts */
+  .window {
+    margin-top: 0px;
+  }
+  .img-mobile-desc p {
+    font-size: 25px;
+  }
+  .img-mobile-desc {
+    padding: 0px 20px;
+  }
+  .img-mobile-desc p {
+    font-size: 22px;
+  }
+  .window-mobile-text {
+    display: block;
+  }
+  .mobile-text {
+    margin-top: 10px;
+  }
+  .mobile-text p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #22202e;
+  }
+  .img-mobile-desc .button {
+    margin-top: 50px;
+    background-color: rgb(224, 221, 217);
+    padding: 20px;
+    text-align: center;
+    color: #22202e;
+  }
+  .img-mobile-img img {
+    margin-top: 30px;
+    height: 250px;
+    width: 100%;
+  }
+  /* Brand section start */
+  .brand {
+    margin-top: 250px;
+  }
+  .brand-cards {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .brand-name {
+    width: 90%;
+    padding: 10px;
+    margin-left: 15px;
+  }
+  .brand-name h3 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .brand-cards div {
+    width: 100%;
+    padding: 20px 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .brand-cards div p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .brand-cards div .second,
+  i {
+    font-size: 20px;
+  }
+  /* Ceramic Section starts */
+  .ceramics-mobile-cards {
+    display: flex;
+    color: #22202e;
+    margin-left: -10px;
+  }
+
+  .ceramics-mobile-cards div img {
+    width: 181px;
+    margin-right: 10px;
+  }
+  .lamp {
+    height: 200px;
+  }
+  .ceramics-view {
+    padding: 20px;
+  }
+  .ceramics-view a {
+    color: #22202e;
+    text-align: center;
+    width: 400px;
+  }
+  .ceramics-cards {
+    display: none;
+  }
+  .global {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .global-name p {
+    font-weight: 100;
+  }
+  .global-description p {
+    font-weight: 100;
+  }
+
+  .global-img {
+    margin: 0;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .global-img img {
+    display: block;
+  }
+  .global-text {
+    width: 100%;
+  }
+  .global-view {
+    margin: 0;
+    width: 100%;
+    margin-top: 60px;
+  }
+  .global-view a {
+    text-align: center;
+    padding: 15px 100px;
+    font-size: 17px;
+  }
+  .join {
+    margin-top: 70px;
+  }
+  .join-menu p {
+    text-align: left;
+  }
+  .join-text {
+    display: none;
+  }
+  .join-text-mobile{
+    display: block;
+  }
+  .join-text-mobile p{
+    text-align: left;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  .join-list ul{
+    flex-direction: column;
+    align-items: start;
+    padding:10px ;
+    margin-left: -30px;
+  }
+  .join-list ul li{
+    padding: 7px;
+  }
+  .join-club-email input{
+     width: 275px;
+     background-color:white;
+  }
+  .footer-nav{
+    display: none;
+  }
+  .footer-mobile{
+    display: block;
+}
+.footer-list  div ul li{
+  font-weight: 300;
+}
+.footer-list{
+  display: flex;
+}
+
+.footer-list div{
+  margin-left:50px;
+}
+.footer-form{
+  display: none;
+}
+.footer-copany{
+  margin-left:50px;
+  padding-top: 10px;
+}
+.footer-form{
+  display: block;
+  margin-top:120px;
+  margin-left:50px;
+  font-size: 25px;
+}
+.for-input{
+  width: 500px;
+}
+.for-input input{
+  padding: 10px;
+  font-size: 15px;
+}
+.for-input button{
+  padding:10px;
+}
+.footer-menu{
+  display: block;
+  padding:50px 0px;
+}
+.footer-bottom{
+width: 100%;
+  color: #fff;
+  margin: 0;
+}
+.footer-copy p{
+  padding:15px 0px;
+}
+.footer-top{
+  padding: 0;
+}
+.footer-copy{
+  margin: 0;
+}
+.footer-icon{
+  display: none;
+}
+}
